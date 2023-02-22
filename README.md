@@ -1,3 +1,3 @@
 # TurtleSnake
 
-The purpose is to create a snake game with the Turtle Graphics metod following object oriented programming.
+The purpose is to create a snake game with the Turtle Graphics library following object oriented programming.
