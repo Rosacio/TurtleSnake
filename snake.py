@@ -6,6 +6,7 @@ DOWN = 270
 RIGHT = 0
 LEFT = 180
 
+
 class SnakeTurtle:
     def __init__(self):
         self.turtles = []
@@ -51,4 +52,12 @@ class SnakeTurtle:
     def right(self):
         if self.head.heading() != LEFT:
             self.head.setheading(RIGHT)
+
+    def reset(self):
+        for tur in self.turtles:
+            tur.goto(1000, 1000)
+        self.turtles.clear()
+        self.create_SnakeTurtle()
+        self.head = self.turtles[0]
+        
             
